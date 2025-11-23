@@ -1,5 +1,8 @@
 # 📝 Task Manager System
 
+<img width="1919" height="556" alt="image" src="https://github.com/user-attachments/assets/6aa5da42-20c3-4281-9ede-2c6b78edc271" />
+
+
 A lightweight, secure task management system built with PHP, MySQL, and Bootstrap 5. This application demonstrates modern web development practices including secure authentication, CRUD operations, and responsive design.
 
 ![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=flat&logo=php&logoColor=white)
