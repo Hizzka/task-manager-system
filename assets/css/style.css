@@ -1,0 +1,100 @@
+/* Task Manager System - Global Styles */
+
+/* Body and Layout */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Authentication Pages (Login/Register) */
+.login-container,
+.register-container {
+    max-width: 450px;
+    margin: 2rem auto;
+}
+
+.login-container {
+    max-width: 400px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5568d3 0%, #653a8b 100%);
+}
+
+/* Dashboard Styles */
+body.dashboard {
+    background-color: #f8f9fa;
+    display: block;
+    min-height: auto;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.stats-card {
+    border-left: 4px solid;
+    transition: transform 0.2s;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-card.total {
+    border-left-color: #667eea;
+}
+
+.stats-card.completed {
+    border-left-color: #28a745;
+}
+
+.stats-card.incomplete {
+    border-left-color: #ffc107;
+}
+
+.task-card {
+    transition: all 0.3s;
+    border-left: 4px solid #667eea;
+}
+
+.task-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.task-card.completed {
+    opacity: 0.7;
+    border-left-color: #28a745;
+}
+
+.task-card.completed .task-title {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.btn-action {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}

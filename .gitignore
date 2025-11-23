@@ -1,0 +1,21 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore temporary files
+*.tmp
+*.bak
+*~
+
+# Ignore logs
+*.log
+error_log
+
+# Ignore database credentials (if you create a separate config)
+config/local.php
