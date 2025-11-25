@@ -59,14 +59,14 @@ A lightweight, secure task management system built with PHP, MySQL, and Bootstra
    - Click "New" to create a new database
    - Name it `task_manager`
    - Go to the "Import" tab
-   - Choose the `database.sql` file from the project root
+   - Choose the `database/task_manager.sql` file from the project
    - Click "Go" to import the tables
 
    **OR** run the SQL manually:
    ```sql
    CREATE DATABASE IF NOT EXISTS task_manager;
    USE task_manager;
-   -- Then copy and paste the contents of database.sql
+   -- Then copy and paste the contents of database/task_manager.sql
    ```
 
 4. **Configure Database Connection**
@@ -110,9 +110,14 @@ A lightweight, secure task management system built with PHP, MySQL, and Bootstra
 
 ```
 task-manager-system/
+├── assets/
+│   └── css/
+│       └── style.css         # Application styles
 ├── config/
 │   ├── database.php          # Database connection configuration
 │   └── session.php           # Session management functions
+├── database/
+│   └── task_manager.sql      # Database schema
 ├── includes/
 │   ├── User.php              # User authentication class
 │   └── Task.php              # Task CRUD operations class
@@ -123,7 +128,6 @@ task-manager-system/
 ├── dashboard.php             # Main dashboard with task list
 ├── add_task.php              # Add new task page
 ├── edit_task.php             # Edit task page
-├── database.sql              # Database schema
 └── README.md                 # This file
 ```
 
